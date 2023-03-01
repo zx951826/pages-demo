@@ -1,0 +1,81 @@
+.article .wrap {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  background-size: cover;
+  background-size: 100%;
+  background-color: rgb(112, 224, 249, 0.3);
+  border-radius: 2%;
+}
+.img-1 {
+  display: inline-block;
+  margin-left: 1.3vw;
+}
+img {
+  margin: 1vw;
+  width: 20vw;
+  height: 30vw;
+  border-radius: 50%;
+}
+
+.item h3 {
+  font-family: 標楷體;
+  display: flex;
+
+  color: rgb(5, 68, 183);
+  font-weight: bold;
+  padding: 0.2vw 2vw 1vw;
+  letter-spacing: 3vw;
+  overflow: auto;
+  border-radius: 2%;
+  line-height: 3vw;
+  letter-spacing: 1.3vw;
+  font-size: 3.7vw;
+  line-height: 6vw;
+
+  z-index: -5;
+}
+.item h4 {
+  font-family: 標楷體;
+  font-size: 3vw;
+  text-align: center;
+  letter-spacing: 0.3vw;
+}
+
+.audio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+
+  left: 10vw;
+  width: 80vw;
+  height: 1vw;
+  padding: 1%;
+  border-radius: 2%;
+  text-align: center;
+  box-shadow: 0.2vw 1vw 1vw rgb(149, 224, 237);
+  background-color: rgba(18, 126, 234, 0.2);
+}
+.img-video {
+  width: 100%;
+  height: 10vw;
+}
+.logocase {
+  margin: 1vw;
+  letter-spacing: 1.5vw;
+  text-align: center;
+  color: rgba(9, 20, 37, 0.916);
+  text-decoration: none;
+  font-size: 3vw;
+  border: 0.5vw solid rgb(24, 123, 236, 90);
+  padding: 2vw;
+
+  background: url("../交往前點滴/LINE_ALBUM_一起出去遊玩_230228_3.jpg")
+    no-repeat;
+  background-size: 10vw 8vw;
+  background-color: rgb(42, 118, 239);
+  border-radius: 2vw;
+}
